@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 23px;
+  font-weight: 300;
+  font-weight: 400;
+}
+
+body {
+  background-image: url("../img/concrete_seamless.png");
+}
+
+p {
+  padding-bottom: 1em;
+}
+
+header, footer, section {
+  padding: 1.5em;
+}
+
+header {
+  text-align: center;
+  background-color: #2e2300;
+  border-bottom: 3px solid #ffa577;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  color: #f9f9ff;
+}
+
+h1, h2, h3, h4 {
+  padding-bottom: 0.2em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+#ablauf ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #2e2300;
+}
+
+#ablauf ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+#ablauf ul li div {
+  position: relative;
+  top: -85px;
+  width: 400px;
+}
+
+#ablauf ul li div time, #ablauf ul li div p {
+  padding: 20px;
+}
+
+#ablauf ul li div time {
+  display: block;
+  border-bottom: 3px solid black;
+  padding-top: 0px;
+}
+
+#ablauf ul li:nth-child(even) div {
+  left: -400px;
+}
+
+#ablauf ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #d55448;
+}
+
+#ablauf ul li::after {
+  background: #d55448;
+  transition: background .5s ease-in-out;
+}
+
+#ablauf ul li.in-view::after {
+  background: #d55448;
+}
+
+#ablauf ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+#ablauf ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+#ablauf ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+#ablauf ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
