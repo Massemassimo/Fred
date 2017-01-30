@@ -43,6 +43,23 @@ header, section {
 	text-align: center;
 }
 
+nav {
+	display: block;
+	text-align: center;
+	ul {
+		li {
+			display: inline-block;
+			list-style-type: none;
+			padding: 0.5em;
+			a {
+				color: black;
+				font-weight: 700;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
 h1, h2, h3, h4 {
 	padding-bottom: 0.2em;
 	text-transform: uppercase;
@@ -50,7 +67,6 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 3em;
-	// font-weight: 600;
 }
 
 h2 {

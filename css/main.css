@@ -34,6 +34,18 @@ header, section {
   padding-right: 150px;
   text-align: center; }
 
+nav {
+  display: block;
+  text-align: center; }
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.5em; }
+    nav ul li a {
+      color: black;
+      font-weight: 700;
+      text-decoration: none; }
+
 h1, h2, h3, h4 {
   padding-bottom: 0.2em;
   text-transform: uppercase; }
