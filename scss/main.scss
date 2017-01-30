@@ -7,14 +7,21 @@ $entry-width: 400px;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Libre Baskerville', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Source Serif Pro', serif;
 	font-size: 23px;
 	font-weight: 300;
 	font-weight: 400;
 }
 
 body {
+<<<<<<< HEAD
 	background-image: url("../img/concrete_seamless.png");
   background-image: url("../img/white-wall.jpg");
+=======
+	background-image: url("../img/white-wall.jpg");
+	background-image: url("../img/1_512.jpg");
+>>>>>>> origin/master
 }
 
 p {
@@ -32,23 +39,59 @@ header {
 	position: relative;
 	overflow: hidden;
 	color: $lc;
+<<<<<<< HEAD
   // Letter Press effect
   text-shadow: 0 1px 1px #7d1818, -1px -1px hsla(0, 67%, 28%, 1.0);
   background-image: url("../img/red-wall.jpg");
+=======
+	background-image: url("../img/red-wall.jpg");
+}
+
+header, section {
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: center;
+}
+
+nav {
+	display: block;
+	text-align: center;
+	ul {
+		li {
+			display: inline-block;
+			list-style-type: none;
+			padding: 0.5em;
+			a {
+				color: black;
+				font-weight: 700;
+				text-decoration: none;
+			}
+		}
+	}
+>>>>>>> origin/master
 }
 
 h1, h2, h3, h4 {
 	padding-bottom: 0.2em;
+	text-transform: uppercase;
 }
 
 h1 {
 	font-size: 3em;
-	font-weight: 500;
-	
 }
 
 h2 {
+	display: inline-block;
 	font-size: 2em;
+    border-bottom: black 2px solid;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    span {
+    	padding-left: 0.5em;
+    	padding-right: 0.5em;
+    	font-weight: inherit;
+    	font-size: inherit;
+    }
 }
 
 #ablauf ul li {

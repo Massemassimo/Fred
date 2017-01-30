@@ -55,7 +55,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3455,
+				"buffer_size": 3688,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -64,7 +64,11 @@
 			"file": "scss/main.scss",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 2048,
+=======
+				"buffer_size": 2364,
+>>>>>>> origin/master
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -108,10 +112,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: isntall",
-				"Package Control: Install Package"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
 			],
@@ -128,14 +128,17 @@
 				"Package Control: Install Package"
 			]
 		],
+<<<<<<< HEAD
 		"width": 528.0
+=======
+		"width": 428.0
+>>>>>>> origin/master
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
 			"view.encoding()"
 		]
 	},
@@ -150,7 +153,11 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Webdesign/Projekte/Fred"
+		"/C/Users/cg/Desktop/Website/Fred",
+		"/C/Users/cg/Desktop/Website/Fred/css",
+		"/C/Users/cg/Desktop/Website/Fred/img",
+		"/C/Users/cg/Desktop/Website/Fred/js",
+		"/C/Users/cg/Desktop/Website/Fred/scss"
 	],
 	"file_history":
 	[
@@ -234,6 +241,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"uppercase",
 			"border-bottom",
 			"bottom",
 			"setim"
@@ -263,15 +271,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3455,
+						"buffer_size": 3688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1670,
-								1670
+								1937,
+								1937
 							]
 						],
 						"settings":
@@ -282,12 +290,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										1939,
+										1943
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										1923,
+										1927
+									]
 								},
 								"unmatched":
 								{
@@ -300,30 +323,73 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+<<<<<<< HEAD
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+=======
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+>>>>>>> origin/master
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+<<<<<<< HEAD
+=======
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+>>>>>>> origin/master
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+<<<<<<< HEAD
+=======
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+>>>>>>> origin/master
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+<<<<<<< HEAD
+=======
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+>>>>>>> origin/master
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
+<<<<<<< HEAD
 								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
@@ -350,14 +416,20 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content"
+=======
+								"bh_round_content"
+>>>>>>> origin/master
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
 							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 0.0,
+=======
+						"translation.y": 324.0,
+>>>>>>> origin/master
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -369,15 +441,24 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 2048,
+=======
+						"buffer_size": 2364,
+>>>>>>> origin/master
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								353,
 								353
+=======
+								379,
+								379
+>>>>>>> origin/master
 							]
 						],
 						"settings":
@@ -388,12 +469,36 @@
 							{
 								"close":
 								{
+<<<<<<< HEAD
 								},
 								"icon":
 								{
 								},
 								"open":
 								{
+=======
+									"1":
+									[
+										383,
+										384
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										366,
+										367
+									]
+>>>>>>> origin/master
 								},
 								"unmatched":
 								{
@@ -406,6 +511,7 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+<<<<<<< HEAD
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -431,16 +537,26 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+=======
+>>>>>>> origin/master
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+<<<<<<< HEAD
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+=======
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+>>>>>>> origin/master
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -451,6 +567,7 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+<<<<<<< HEAD
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -522,20 +639,44 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+=======
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+>>>>>>> origin/master
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+<<<<<<< HEAD
+=======
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+>>>>>>> origin/master
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+<<<<<<< HEAD
+=======
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+>>>>>>> origin/master
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
+<<<<<<< HEAD
 								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
@@ -547,25 +688,127 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+=======
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+>>>>>>> origin/master
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+<<<<<<< HEAD
+=======
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+>>>>>>> origin/master
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+<<<<<<< HEAD
+=======
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+>>>>>>> origin/master
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
+<<<<<<< HEAD
 								"bh_tag_content"
+=======
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+>>>>>>> origin/master
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
 							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -612,6 +855,7 @@
 							},
 							"bracket_highlighter.regions":
 							[
+<<<<<<< HEAD
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -622,16 +866,49 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+=======
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+>>>>>>> origin/master
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+<<<<<<< HEAD
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -642,11 +919,14 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+=======
+>>>>>>> origin/master
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+<<<<<<< HEAD
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -667,18 +947,32 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content"
+=======
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+>>>>>>> origin/master
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended (SL).tmTheme",
 							"incomplete_sync": null,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 3,
+=======
+					"stack_index": 2,
+>>>>>>> origin/master
 					"type": "text"
 				}
 			]
@@ -686,7 +980,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -727,7 +1021,7 @@
 	"project": "freds.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
