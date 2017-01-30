@@ -7,13 +7,16 @@ $entry-width: 400px;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Libre Baskerville', serif;
+	font-family: 'Droid Serif', serif;
+	font-family: 'Source Serif Pro', serif;
 	font-size: 23px;
 	font-weight: 300;
 	font-weight: 400;
 }
 
 body {
-	background-image: url("../img/concrete_seamless.png");
+	background-image: url("../img/white-wall.jpg");
+	background-image: url("../img/1_512.jpg");
 }
 
 p {
@@ -31,20 +34,37 @@ header {
 	position: relative;
 	overflow: hidden;
 	color: $lc;
+	background-image: url("../img/red-wall.jpg");
+}
+
+header, section {
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: center;
 }
 
 h1, h2, h3, h4 {
 	padding-bottom: 0.2em;
+	text-transform: uppercase;
 }
 
 h1 {
 	font-size: 3em;
-	font-weight: 500;
-	
+	// font-weight: 600;
 }
 
 h2 {
+	display: inline-block;
 	font-size: 2em;
+    border-bottom: black 2px solid;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    span {
+    	padding-left: 0.5em;
+    	padding-right: 0.5em;
+    	font-weight: inherit;
+    	font-size: inherit;
+    }
 }
 
 #ablauf ul li {
