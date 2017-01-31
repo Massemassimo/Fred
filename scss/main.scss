@@ -15,8 +15,13 @@ $entry-width: 400px;
 }
 
 body {
+<<<<<<< HEAD
+	background-image: url("../img/concrete_seamless.png");
+  background-image: url("../img/white-wall.jpg");
+=======
 	background-image: url("../img/white-wall.jpg");
 	background-image: url("../img/1_512.jpg");
+>>>>>>> origin/master
 }
 
 p {
@@ -34,6 +39,11 @@ header {
 	position: relative;
 	overflow: hidden;
 	color: $lc;
+<<<<<<< HEAD
+  // Letter Press effect
+  text-shadow: 0 1px 1px #7d1818, -1px -1px hsla(0, 67%, 28%, 1.0);
+  background-image: url("../img/red-wall.jpg");
+=======
 	background-image: url("../img/red-wall.jpg");
 }
 
@@ -58,6 +68,7 @@ nav {
 			}
 		}
 	}
+<<<<<<< HEAD
 	&.attached {
 		position: fixed;
 		top: 2em;
@@ -72,6 +83,9 @@ nav {
 			}
 		}
 	}
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
 
 h1, h2, h3, h4 {
