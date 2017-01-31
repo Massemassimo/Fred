@@ -30,8 +30,8 @@ header {
   background-image: url("../img/red-wall.jpg"); }
 
 header, section {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 20%;
+  padding-right: 20%;
   text-align: center; }
 
 nav {
@@ -45,6 +45,15 @@ nav {
       color: black;
       font-weight: 700;
       text-decoration: none; }
+  nav.attached {
+    position: fixed;
+    top: 2em;
+    left: 1em;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-right: 0.5em;
+    padding-right: 1em; }
+    nav.attached ul li {
+      display: block; }
 
 h1, h2, h3, h4 {
   padding-bottom: 0.2em;

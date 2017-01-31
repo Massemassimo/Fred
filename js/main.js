@@ -9,7 +9,8 @@ function isElementInViewport(el) {
 }
 
 var items = document.querySelectorAll("#ablauf li");
-console.log("Itemcount: " + items.length);
+var navbar = document.querySelector("nav");
+var helper = document.querySelector("#helper");
  
 // code for the isElementInViewport function
  
@@ -19,6 +20,11 @@ function callbackFunc() {
       items[i].classList.add("in-view");
     }
   }
+  if (!isElementInViewport(helper)) {
+  	navbar.classList.add("attached");
+  } else {
+  	navbar.classList.remove("attached");
+  	}
 }
  
 window.addEventListener("load", callbackFunc);
